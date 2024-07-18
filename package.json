@@ -4,6 +4,7 @@
   "main": "index.ts",
   "type": "module",
   "scripts": {
+    "prepare": "husky install",
     "dev": "vite",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
