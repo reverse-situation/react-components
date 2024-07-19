@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { Home } from './page/index.ts';
-import App from './App';
+import App from './App.tsx';
 
 export const AppRouter = () => (
   <BrowserRouter>

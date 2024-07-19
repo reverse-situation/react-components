@@ -23,7 +23,7 @@ module.exports = {
     'import/resolver': {
       alias: {
         map: [
-          ["@myComponents", "./component"],
+          ["@myComponents", "./src/component"],
         ]
       }
     }

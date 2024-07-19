@@ -1,0 +1,13 @@
+web-test/
+.vscode
+.husky
+.prettierignore
+.prettierrc
+.eslintrc.cjs
+.gitignore
+index.html
+commitlint.config.ts
+tsconfig.json
+vite.config.ts
+src/
+dist/web-test/

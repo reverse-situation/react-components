@@ -1,12 +1,12 @@
 {
   "name": "@reverse-situation/react-components",
-  "version": "1.0.0",
+  "version": "1.0.0-alpha.6",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "type": "module",
   "scripts": {
     "prepare": "husky install",
-    "build": "tsc && vite build",
+    "build": "vite build && tsc",
     "dev": "vite",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
@@ -20,7 +20,7 @@
   "author": "",
   "license": "ISC",
   "description": "",
-  "dependencies": {
+  "peerDependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
